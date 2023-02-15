@@ -54,6 +54,7 @@ body{
     @include bg-gradient($white, $secondary-100);
 }
 .about-content{
+    --flowspacer: 1rem;
     @extend .flex;
     gap: calc(var(--gap) * 2);
 }

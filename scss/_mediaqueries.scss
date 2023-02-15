@@ -119,7 +119,10 @@
         .project-text{
             grid-column: span 2;
         }
-        
+        .project-image:hover::before{
+            filter:saturate(1.5);
+            transform: scale(1.1);
+        }
     }
     // contact
     .contact-wrapper{
